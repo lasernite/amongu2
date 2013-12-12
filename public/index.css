@@ -1,0 +1,63 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	position: absolute;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#page {
+	padding: 0px;
+	margin: 0px;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fillx {
+	width: 100%;
+}
+.filly {
+	height: 100%;
+}
+.centerx {
+	margin-left: auto;
+	margin-right: auto;
+}
+.centery {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+table {
+	/*border: none;*/
+}
+td {
+	padding: 0;
+	margin: 0;
+}
+tr {
+	padding: 0;
+	margin: 0;
+}
+.pointing {
+	cursor: pointer;
+}
+.invisible-element {
+	display: none !important;
+}
+div.scrollable {
+    overflow: auto;
+    position: relative;
+    /*border: solid;*/
+}
+.bordered {
+    border-style: solid;
+    border-color: black;
+}
+
+#header {
+    height: 100px;
+}
+#select {
+    height: 25px;
+}
